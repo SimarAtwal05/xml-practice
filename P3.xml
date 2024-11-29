@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="P3.xsd">
+    <orderId>12345</orderId>
+    <description>Order for science fiction books</description>
+    <requestDate>2024-11-09</requestDate>
+    <lineItem>
+        <book>
+            <bookId>BK001</bookId>
+            <bookName>The Galactic Journey</bookName>
+            <genre>science-fiction</genre>
+            <publishDate>2020-05-15</publishDate>
+            <author>
+                <firstName>Arthur</firstName>
+                <lastName>Clarke</lastName>
+                <bio>Renowned science fiction author.</bio>
+                <penName>A. C. Clarke</penName>
+            </author>
+            <author>
+                <firstName>Isaac</firstName>
+                <lastName>Asimov</lastName>
+                <bio>Prolific science fiction writer and biochemist.</bio>
+            </author>
+        </book>
+        <quantity>2</quantity>
+        <price>12.99</price>
+    </lineItem>
+    <lineItem>
+        <book>
+            <bookId>BK002</bookId>
+            <bookName>Secrets of the Mind</bookName>
+            <genre>mystery</genre>
+            <publishDate>2018-10-23</publishDate>
+            <author>
+                <firstName>Agatha</firstName>
+                <lastName>Christie</lastName>
+                <bio>British writer known for mystery novels.</bio>
+            </author>
+        </book>
+        <quantity>1</quantity>
+        <price>9.99</price>
+    </lineItem>
+</order>
